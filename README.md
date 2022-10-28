@@ -12,4 +12,4 @@
 
 ## Description:
 
-### Projeto com php fazendo requisição em api externa (https://www.canalti.com.br/api/pokemons.json) 
+### Project with php making request in external api (https://www.canalti.com.br/api/pokemons.json) 
