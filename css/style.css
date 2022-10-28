@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap'); /* Font*/
+
+body {
+    background: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    height: 100vh;
+}
+#pokedex {
+    background-color: red;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+    width: 300px;
+    height: 450px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+#pokedex .camera,
+#pokedex .pkmn-name {
+    display: inline-block;
+}
+#pokedex .camera {
+    background-color: aqua;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+#pokedex .pkmn-name {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    
+}
+
+#pokedex #img-container {
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+#pokedex #img-container img {
+    
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px
+}
